@@ -1,30 +1,30 @@
 import {TabBar} from 'antd-mobile'
 import React from 'react'
 import router from 'umi/router'
+import styles from './indexBar.less'
+
+
 const {TabItem} = TabBar
 export default ({location}) => {
     const path=location.pathname
     return (
         <TabBar
+
             unselectedTintColor="#949494"
             tintColor="#33A3F4"
             barTintColor="white"
             hidden={false}
             noRenderContent={true}
         >
-            <TabItem
+            <TabItem className={styles.item}
                 icon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div  className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat'
                     }}
                     />
                 }
                 selectedIcon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat'
                     }}
                     />
@@ -40,19 +40,15 @@ export default ({location}) => {
             >
 
             </TabItem>
-            <TabItem
+            <TabItem className={styles.item}
                 icon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat'
                     }}
                     />
                 }
                 selectedIcon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat'
                     }}
                     />
@@ -68,19 +64,15 @@ export default ({location}) => {
             >
 
             </TabItem>
-            <TabItem
+            <TabItem className={styles.item}
                 icon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat'
                     }}
                     />
                 }
                 selectedIcon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat'
                     }}
                     />
@@ -94,19 +86,15 @@ export default ({location}) => {
             >
 
             </TabItem>
-            <TabItem
+            <TabItem className={styles.item}
                 icon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat'
                     }}
                     />
                 }
                 selectedIcon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat'
                     }}
                     />
@@ -122,19 +110,15 @@ export default ({location}) => {
             >
 
             </TabItem>
-            <TabItem
+            <TabItem className={styles.item}
                 icon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div  className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat'
                     }}
                     />
                 }
                 selectedIcon={
-                    <div style={{
-                        width: '22px',
-                        height: '22px',
+                    <div className={styles.icon} style={{
                         background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat'
                     }}
                     />

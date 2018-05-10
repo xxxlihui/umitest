@@ -12,7 +12,7 @@ export default class index extends React.Component {
                 </IndexLayout>
             )
         } else {
-            return ({children})
+            return (<div>other layout</div>)
         }
 
     }

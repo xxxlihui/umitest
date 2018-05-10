@@ -17,8 +17,8 @@ export default {
           "pathRewrite": { "^/api/v1/th": "" }
         },
       },
-      theme: './src/theme.js',
+
       extraBabelPlugins: [
-        ['import', { libraryName: 'antd', libraryDirectory: 'es', style: true }],
+        ['import', { libraryName: 'antd-mobile', libraryDirectory: 'es', style: true }],
       ],
 }

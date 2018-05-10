@@ -13,6 +13,7 @@ export default class Head extends React.Component {
                 <img className={styles.signIn} src={signInImg}/>
                 <img className={styles.customer_service} src={customerServiceImg}></img>
                 <img className={styles.person_head} src={defaultPersonImg}/>
+                <div className={styles.split}></div>
                 <div className={styles.person}>
                     <div className={styles.name}>用户名</div>
                     <div className={styles.info}>上海&nbsp;男&nbsp; lv1</div>

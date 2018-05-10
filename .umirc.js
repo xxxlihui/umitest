@@ -1,6 +1,7 @@
 export default {
+    hd:true,
     plugins: [
-        ['umi-plugin-dva'],
+        ['umi-plugin-dva', ],
         ['umi-plugin-routes', {
             exclude: [
                 /exclude/,

@@ -1,5 +1,10 @@
 import React from 'react'
+import styles from './index.less'
+export default class index extends React.Component{
 
-export default class index {
-
+    render(){
+        return (
+            <div className={styles.splitRow}></div>
+        )
+    }
 }
